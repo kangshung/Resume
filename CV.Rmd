@@ -17,7 +17,9 @@ pacman::p_load(vitae, tibble)
 
 # Introduction
 
-I am studying on the third year of the Bachelor's degree in Data Engineering at Gdańsk University of Technology. I am seeking a part-time job as a Data Scientist and I am keen and eligible for working remotely.
+I am studying on the third year of the Bachelor's degree in Data Engineering at Gdańsk University of Technology.
+
+I am seeking a job as a Data Engineer Intern and I am eligible to work part-time or remotely.
 
 # Experience
 
@@ -49,7 +51,7 @@ detailed_entries(tibble(what = 'Gdańsk University of Technology',
                         with = 'Data Engineering',
                         when = 'October 2017 - February 2021',
                         where = 'Gdańsk',
-                        why = c('Bachelor of Engineering (B.Eng.)',
+                        why = c('Bachelor of Engineering (B. Eng.)',
                                 'Faculty of Electronics, Telecommunications and Informatics',
                                 'Faculty of Management and Economics')),
                  what, when, with, where, why)
