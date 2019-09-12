@@ -1,0 +1,80 @@
+---
+name: Damian Fiłonowicz
+position: "Data Engineering student, date of birth: 08.02.1998"
+address: "Poland, Gdańsk University of Technology"
+phone: 662 515 228
+email: damianomancity@gmail.com
+linkedin: kangshung
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: 'I am a 21-year-old aspiring Data Engineering student who seeks a job as a Data Scientist/Data Engineer.'
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+pacman::p_load(vitae, tibble)
+```
+
+# Introduction
+
+I am studying on the third year of the Bachelor's degree in Data Engineering at Gdańsk University of Technology. I am seeking a part-time job as a Data Scientist and I am keen and eligible for working remotely.
+
+# Experience
+
+```{r}
+detailed_entries(tibble(what = 'ERGO Hestia',
+                        when = 'April 2019 - Present',
+                        with = 'Data Modeling Intern',
+                        where = 'Sopot',
+                        why = c('creating and maintaining Shiny applications',
+                                'writing automation scripts in R and Python',
+                                'improving code performance and quality',
+                                'performing data mining activities')),
+                 what, when, with, where, why)
+
+detailed_entries(tibble(what = 'BEST SA',
+                        when = 'July 2018 - November 2018',
+                        with = 'Project-Based Internship - fuzzy address matching',
+                        where = 'Gdynia',
+                        why = c('analysing Polish address data',
+                                'checking their correctness using string distance metrics',
+                                'building a statistical tool that enhances their quality')),
+                 what, when, with, where, why)
+```
+
+# Education
+
+```{r}
+detailed_entries(tibble(what = 'Gdańsk University of Technology',
+                        with = 'Data Engineering',
+                        when = 'October 2017 - February 2021',
+                        where = 'Gdańsk',
+                        why = c('Bachelor of Engineering (B.Eng.)',
+                                'Faculty of Electronics, Telecommunications and Informatics',
+                                'Faculty of Management and Economics')),
+                 what, when, with, where, why)
+
+detailed_entries(tibble(what = 'Stefan Żeromski High School No. 1 in Ełk',
+                        with = 'Biochemical Profile',
+                        when = 'September 2014 - May 2017',
+                        where = 'Ełk'),
+                 what, when, with, where)
+```
+
+# Skills
+
+```{r}
+detailed_entries(tibble(why = c('C1 Advanced CEFR Cambridge English Qualifications',
+                                'fluency in R and creating Shiny applications',
+                                'general knowledge of C/C++/Rcpp, Java, Scala, Python, and SQL',
+                                'vast knowledge of statistical and mathematical modeling methods',
+                                'experience in using machine and deep learning algorithms',
+                                'experience in architecting databases and data warehouses',
+                                'experience in developing data pipelines and ETL/ELT processes',
+                                'working knowledge of JavaScript, HTML and CSS')),
+                 why = why)
+```
+
+# About me
+
+I am a big fan of Manchester City Football Club and an Anglophile. In my free time I learn Spanish, watch YouTube videos about music and vocals, and read articles about data analysis. Also, in my free time I offer English tutor services. I make people aware that data.table is much faster than pandas.
