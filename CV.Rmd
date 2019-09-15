@@ -19,7 +19,7 @@ pacman::p_load(vitae, tibble)
 
 I am studying on the third year of the Bachelor's degree in Data Engineering at Gdańsk University of Technology.
 
-I am seeking a job as a Data Engineer Intern and I am eligible to work part-time or remotely.
+I am seeking a job to work part-time or remotely.
 
 # Experience
 
@@ -69,11 +69,11 @@ detailed_entries(tibble(what = 'Stefan Żeromski High School No. 1 in Ełk',
 detailed_entries(tibble(why = c('C1 Advanced CEFR Cambridge English Qualifications',
                                 'fluency in R and creating Shiny applications',
                                 'general knowledge of C/C++/Rcpp, Java, Scala, Python, and SQL',
+                                'working knowledge of JavaScript, HTML, CSS, Bootstrap, and Git',
                                 'vast knowledge of statistical and mathematical modeling methods',
                                 'experience in using machine and deep learning algorithms',
-                                'experience in architecting databases and data warehouses',
-                                'experience in developing data pipelines and ETL/ELT processes',
-                                'working knowledge of JavaScript, HTML and CSS')),
+                                'experience in modeling databases and data warehouses',
+                                'experience in developing data pipelines and ETL/ELT processes')),
                  why = why)
 ```
 
