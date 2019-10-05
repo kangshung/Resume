@@ -3,7 +3,7 @@ name: Damian Fiłonowicz
 position: "Data Engineering student, date of birth: 08.02.1998"
 address: "Poland, Gdańsk University of Technology"
 phone: 662 515 228
-email: damianomancity@gmail.com
+email: damian.filonowicz@gmail.com
 linkedin: kangshung
 github: kangshung
 date: "`r format(Sys.time(), '%B %Y')`"
