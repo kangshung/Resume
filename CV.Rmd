@@ -5,8 +5,9 @@ address: "Poland, Gdańsk University of Technology"
 phone: 662 515 228
 email: damianomancity@gmail.com
 linkedin: kangshung
+github: kangshung
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: 'I am a 21-year-old aspiring Data Engineering student who seeks a job as a Data Scientist/Data Engineer.'
+aboutme: 'I am a 21-year-old aspiring Data Engineering student who seeks a job as a Data Engineer.'
 output: vitae::awesomecv
 ---
 
@@ -62,7 +63,17 @@ detailed_entries(tibble(what = 'Stefan Żeromski High School No. 1 in Ełk',
                  what, when, with, where)
 ```
 
-# Skills
+# Technical skills
+
+<!-- * C1 Advanced CEFR Cambridge English Qualifications -->
+<!-- * fluency in R and creating Shiny applications -->
+<!-- * general knowledge of C/C++/Rcpp, Java, Scala, Python, and SQL -->
+<!-- * working knowledge of JavaScript, HTML, CSS, Bootstrap, and Git -->
+<!-- * vast knowledge of statistical and mathematical modeling methods -->
+<!-- * experience in using machine and deep learning algorithms -->
+<!-- * experience in modeling databases and data warehouses -->
+<!-- * experience in developing data pipelines and ETL/ELT processes -->
+<!-- * experience in using Hadoop and its ecosystem\'s tools -->
 
 ```{r}
 detailed_entries(tibble(why = c('C1 Advanced CEFR Cambridge English Qualifications',
@@ -80,3 +91,12 @@ detailed_entries(tibble(why = c('C1 Advanced CEFR Cambridge English Qualificatio
 # About me
 
 I am a big fan of Manchester City Football Club and an Anglophile. In my free time I learn Spanish, and read articles about data engineering. I also offer English tutor services.
+
+Wyrażam zgodę na przetwarzanie danych osobowych zawartych w niniejszym dokumencie do realizacji procesu rekrutacji zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).
+
+Wyrażam zgodę na przetwarzanie moich danych osobowych również na potrzeby przyszłych rekrutacji, zgodnie z art. 6 ust. 1 lit. a Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych).
+
+
+I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation).
+
+I also consent to processing of my personal data for the purposes of any future recruitment processes.
